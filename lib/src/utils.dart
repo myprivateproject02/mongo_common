@@ -7,6 +7,10 @@ import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
 import 'package:permission_handler/permission_handler.dart';
 
+
+String stagingEncryptedKey() =>
+    "7jKXHCNc6vTgE5fizvDJTTdykDLW8aAIxE1yrx6ssSY=";
+
 extension StringExtension on String? {
   String stagingEncryptedKey() =>
       "7jKXHCNc6vTgE5fizvDJTTdykDLW8aAIxE1yrx6ssSY=";
